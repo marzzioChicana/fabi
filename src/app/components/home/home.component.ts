@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit{
   ngOnInit(): void {
     setInterval(() => {
       this.addImage();
-    }, 500);
+    }, 300);
   }
 
   addImage() {
